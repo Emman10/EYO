@@ -14,23 +14,41 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./css/styles.css">
     <title>EYO</title>
+    <!-- Link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Link css -->
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header>
-        <a href="../index.html" class="logo">
-            <img src="./image/logoOriginal.svg" alt="Logo">
-        </a>
-        <nav class="lista">
-            <ul>
-                <li><a href="./pages/galeria.html" class="a1">Galeria</a></li>
-                <li><a href="./pages/productos.html" class="a2">Productos</a></li>
-                <li><a href="./pages/faq.html" class="a3">FAQ</a></li>
-                <li><a href="./pages/contacto.html" class="a4">Contacto</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar navbar-expand-lg bg-black">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="./assets/images/logoOriginal.svg" class="d-inline-block align-top" alt="EYO">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">GALERIA</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PRODUCTOS</a>
+        </li>
+        <li class="nav-item"> 
+            <a class="nav-link" href="#">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link">CONTACTO</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
     </header>
     <main>
         <div class="banner3">
@@ -170,6 +188,10 @@
         </div>
         <h5 class="copy">COPYRIGHT EYO - 2022. TODOS LOS DERECHOS RESERVADOS.</h5>
     </footer>
+    <!-- Link bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

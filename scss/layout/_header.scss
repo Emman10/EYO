@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "StretchPro";
+    src: url(/assets/fonts/StretchPro.otf);
+}
+.nav-link{
+    color: aliceblue;
+    font-family: StretchPro;
+}
+.navbar-brand{
+    width: 6em;
+}
+.navbar-toggler{
+    background-color: white;
+}

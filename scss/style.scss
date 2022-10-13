@@ -1,3 +1,5 @@
-header{
-    background-color: aqua;
-}
+@import "./base/typo";
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/footer";

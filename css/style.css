@@ -1,2 +1,66 @@
-header {
-  background-color: aqua; }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500&display=swap");
+@font-face {
+  font-family: "StretchPro";
+  src: url(/assets/fonts/StretchPro); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "StretchPro";
+  src: url(/assets/fonts/StretchPro.otf); }
+
+.nav-link {
+  color: aliceblue;
+  font-family: StretchPro; }
+
+.navbar-brand {
+  width: 6em; }
+
+.navbar-toggler {
+  background-color: white; }
+
+footer h3 {
+  font-family: stretchpro;
+  color: aliceblue;
+  margin: 1em; }
+
+footer {
+  font-family: poppins;
+  font-size: 1.5em; }
+
+footer div nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row; }
+
+footer nav ul li:hover {
+  transform: translateY(-0.1em); }
+
+.fondoNegro {
+  background-color: black;
+  padding-top: 1.5em; }
+
+.textoCentrado {
+  text-align: center; }
+
+.rrss {
+  margin-top: 2em;
+  margin-bottom: 1em; }
+
+.rrss a svg {
+  height: 1em; }
+
+.rrss a svg:hover {
+  transform: translateY(-0.1em); }
+
+.copy {
+  text-align: left;
+  font-family: poppins;
+  color: aliceblue;
+  font-size: 0.5em;
+  font-weight: 100;
+  padding-top: 1.5em; }
