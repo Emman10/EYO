@@ -4,14 +4,12 @@ footer h3{
     margin: 1em;
 }
 footer{
-    font-family: poppins;
+    font-family: $fuente-secundaria;
     font-size: 1.5em;
 }
 footer div nav ul{
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    @include propiedades-flex (center, row);
+    list-style-type: none
 }
 footer nav ul li:hover{
     transform: translateY(-0.1em);
