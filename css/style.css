@@ -40,7 +40,7 @@ header {
   color: aliceblue;
   width: 100%;
   height: 20em;
-  background: center fixed url(../../assets/images/banner31.jpg);
+  background: center fixed url(../assets/images/banner31.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -85,7 +85,7 @@ body main div section {
   height: 6em;
   margin-left: 0;
   margin-bottom: 1.5em;
-  background: center fixed url(../../assets/images/banner1.jpg);
+  background: center fixed url(../assets/images/banner1.jpg);
   background-size: 100%;
   display: flex;
   flex-direction: column;
@@ -328,7 +328,6 @@ a {
   .banner3 {
     width: 100%;
     height: 10rem;
-    background: center fixed url(../../assets/images/banner31.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -373,7 +372,6 @@ a {
     width: 100%;
     height: 3em;
     margin-bottom: 25px;
-    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }
@@ -481,7 +479,6 @@ a {
   .banner3 {
     width: 100%;
     height: 10rem;
-    background: center fixed url(../../assets/images/banner31.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -524,7 +521,6 @@ a {
     width: 100%;
     height: 3em;
     margin-bottom: 25px;
-    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }
@@ -629,7 +625,6 @@ a {
   .banner3 {
     width: 100%;
     height: 10rem;
-    background: center fixed url(../../assets/images/banner31.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -670,7 +665,6 @@ a {
     width: 100%;
     height: 3em;
     margin-bottom: 25px;
-    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }
@@ -775,7 +769,6 @@ a {
   .banner3 {
     width: 100%;
     height: 10rem;
-    background: center fixed url(../../assets/images/banner31.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -816,7 +809,6 @@ a {
     width: 100%;
     height: 3em;
     margin-bottom: 25px;
-    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }
@@ -921,7 +913,6 @@ a {
   .banner3 {
     width: 100%;
     height: 13em;
-    background: center fixed url(../../assets/images/banner31.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -962,7 +953,6 @@ a {
     width: 100%;
     height: 5em;
     margin-bottom: 25px;
-    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }
