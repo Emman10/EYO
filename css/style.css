@@ -15,7 +15,7 @@ header {
 
 .nav-link {
   color: aliceblue;
-  font-family: stretchpro; }
+  font-family: "Stretch Pro", sans-serif; }
 
 .navbar-brand {
   width: 100px;
@@ -40,7 +40,7 @@ header {
   color: aliceblue;
   width: 100%;
   height: 20em;
-  background-image: center fixed url(../../assets/images/banner31.jpg);
+  background: center fixed url(../../assets/images/banner31.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
@@ -57,7 +57,7 @@ body main div section {
   margin-bottom: 2.5em; }
 
 .productos {
-  font-family: stretchpro;
+  font-family: "Stretch Pro", sans-serif;
   font-size: 3em;
   font-weight: 500;
   margin: 1.5em;
@@ -78,14 +78,14 @@ body main div section {
   width: 15em; }
 
 .masProductos {
-  font-family: stretchpro;
+  font-family: "Stretch Pro", sans-serif;
   color: aliceblue;
   font-size: 2em;
   width: 100%;
   height: 6em;
   margin-left: 0;
   margin-bottom: 1.5em;
-  background: center fixed url(/assets/images/banner1.jpg);
+  background: center fixed url(../../assets/images/banner1.jpg);
   background-size: 100%;
   display: flex;
   flex-direction: column;
@@ -137,7 +137,7 @@ body main div section {
   justify-content: center; }
 
 .titulo-faq h1 {
-  font-family: stretchpro;
+  font-family: "Stretch Pro", sans-serif;
   text-align: center;
   margin: 20px; }
 
@@ -164,6 +164,10 @@ body main div section {
 .maps-contacto {
   grid-area: maps-contacto; }
 
+.titulo-contacto h1 {
+  font-family: "Stretch Pro", sans-serif;
+  margin: 20px; }
+
 .body-contacto {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(50em, 1fr));
@@ -181,7 +185,7 @@ body main div section {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.5em;
+  font-size: 1em;
   background-color: #7390a2; }
 
 .grid-contacto:nth-child(2) {
@@ -238,7 +242,7 @@ form div:nth-child(1) {
   padding-bottom: 10px; }
 
 footer h3 {
-  font-family: stretchpro;
+  font-family: "Stretch Pro", sans-serif;
   color: aliceblue;
   margin: 1em; }
 
@@ -274,7 +278,7 @@ footer nav ul li:hover {
 
 .copy {
   text-align: left;
-  font-family: poppins;
+  font-family: "Poppins";
   color: aliceblue;
   font-size: 0.5em;
   font-weight: 100;
@@ -322,8 +326,6 @@ a {
     padding-left: 20px;
     margin-left: 0px; }
   .banner3 {
-    font-family: stretchpro;
-    color: aliceblue;
     width: 100%;
     height: 10rem;
     background: center fixed url(../../assets/images/banner31.jpg);
@@ -371,7 +373,7 @@ a {
     width: 100%;
     height: 3em;
     margin-bottom: 25px;
-    background: center fixed url(/assets/images/banner1.jpg);
+    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }
@@ -437,6 +439,9 @@ a {
   .titulo-contacto {
     text-align: center;
     padding: 15px; }
+  .titulo-contacto h1 {
+    margin: 10px;
+    font-size: 25px; }
   .info-contacto {
     text-align: center; }
   .form-contacto {
@@ -474,8 +479,6 @@ a {
     padding-left: 20px;
     margin-left: 0px; }
   .banner3 {
-    font-family: stretchpro;
-    color: aliceblue;
     width: 100%;
     height: 10rem;
     background: center fixed url(../../assets/images/banner31.jpg);
@@ -521,7 +524,7 @@ a {
     width: 100%;
     height: 3em;
     margin-bottom: 25px;
-    background: center fixed url(/assets/images/banner1.jpg);
+    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }
@@ -624,8 +627,6 @@ a {
     padding-left: 20px;
     margin-left: 0px; }
   .banner3 {
-    font-family: stretchpro;
-    color: aliceblue;
     width: 100%;
     height: 10rem;
     background: center fixed url(../../assets/images/banner31.jpg);
@@ -669,7 +670,7 @@ a {
     width: 100%;
     height: 3em;
     margin-bottom: 25px;
-    background: center fixed url(/assets/images/banner1.jpg);
+    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }
@@ -772,8 +773,6 @@ a {
     padding-left: 20px;
     margin-left: 0px; }
   .banner3 {
-    font-family: stretchpro;
-    color: aliceblue;
     width: 100%;
     height: 10rem;
     background: center fixed url(../../assets/images/banner31.jpg);
@@ -817,7 +816,7 @@ a {
     width: 100%;
     height: 3em;
     margin-bottom: 25px;
-    background: center fixed url(/assets/images/banner1.jpg);
+    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }
@@ -920,8 +919,6 @@ a {
     padding-left: 20px;
     margin-left: 0px; }
   .banner3 {
-    font-family: stretchpro;
-    color: aliceblue;
     width: 100%;
     height: 13em;
     background: center fixed url(../../assets/images/banner31.jpg);
@@ -965,7 +962,7 @@ a {
     width: 100%;
     height: 5em;
     margin-bottom: 25px;
-    background: center fixed url(/assets/images/banner1.jpg);
+    background: center fixed url(../../assets/images/banner1.jpg);
     background-size: 100%; }
   .galeria {
     width: 100%; }

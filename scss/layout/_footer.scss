@@ -1,5 +1,5 @@
 footer h3{
-    font-family: stretchpro;
+    font-family: $fuente-primaria;
     color: aliceblue;
     margin: 1em;
 }
@@ -33,7 +33,7 @@ footer nav ul li:hover{
 }
 .copy{
     text-align: left;
-    font-family: poppins;
+    font-family: $fuente-secundaria;
     color: aliceblue;
     font-size: 0.5em;
     font-weight: 100;
