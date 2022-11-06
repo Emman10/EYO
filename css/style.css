@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Poppins:wght@300;400;500&display=swap");
 @import url("https://fonts.cdnfonts.com/css/stretch-pro");
-@font-face {
-  font-family: "stretchpro";
-  src: url(../../assets/fonts/StretchPro.otf); }
-
 * {
   margin: 0;
   padding: 0;
@@ -29,7 +25,7 @@ header {
   letter-spacing: 0.1em; }
 
 .bannerLetra {
-  font-family: stretchpro;
+  font-family: 'Stretch Pro', sans-serif;
   margin-left: 0.7em;
   color: black;
   font-size: 3em;
