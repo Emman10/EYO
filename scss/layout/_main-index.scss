@@ -1,23 +1,23 @@
 .bannerLetra1{
-    font-family: stretchpro;
+    font-family: $fuente-primaria;
     margin-left: 1.1em;
     font-size: 2em;
     font-variant: none;
     letter-spacing: 0.1em;
 }
 .bannerLetra{
-    font-family: 'Stretch Pro', sans-serif;
+    font-family: $fuente-primaria;
     margin-left: 0.7em;
     color: black;
     font-size: 3em;
     left: 0%;
 }
 .banner3{
-    font-family: stretchpro;
+    font-family: $fuente-primaria;
     color: aliceblue;
     width: 100%;
     height: 20em;
-    background: center fixed url(../../assets/images/banner31.jpg);
+    background-image: center fixed url(../../assets/images/banner31.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
