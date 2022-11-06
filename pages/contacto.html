@@ -76,46 +76,47 @@
                     height= 100% width= 100% style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
             <div class="form-contacto grid-contacto">
-                <form action="">
+                <form action="form">
                     <div>
                     <!-- Campo para nombre -->
                     <label for="nombre_apellido"><h3>Nombre y Apellido</h3></label>
-                    <input type="text" name="nombre_apellido" id="nombre_apellido" placeholder="Ej: Cosme Fulanito">
+                    <input type="text" class="descripcion" name="nombre_apellido" id="nombre_apellido" placeholder="Ej: Cosme Fulanito">
                     </div>
                     <div>
                     <!-- Campo para email -->
                     <label for="email"><h3>Email</h3></label>
-                    <input type="text" name="email" id="email" placeholder="Ej: email@gmail.com">
+                    <input type="text" class="descripcion" name="email" id="email" placeholder="Ej: email@gmail.com">
                     </div>
                     <div>
                     <!-- Campo para telefono -->
                     <label for="telefono"><h3>Telefono</h3></label>
-                    <input type="tel" id="telefono" name="telefono" placeholder="Ej: 02612484446">
+                    <input type="tel" class="descripcion" id="telefono" name="telefono" placeholder="Ej: 02612484446">
                     </div>
-                    <div>
+                    <div class="consulta">
                     <!-- Campo para elegir consulta -->
                     <label for="seleccion"><h3>Tipo de consulta</h3></label>
-                    <select name="seleccion" id="seleccion">
+                    <select name="seleccion" class="button" id="seleccion">
                         <option value="medios_de_pago">Medios de pago</option>
                         <option value="compras">Compras</option>
                         <option value="diseño">Diseño</option>
                         <option value="otros">Otros</option>
                     </select>
                     </div>
-                    <div>
-                    <!-- CAmpo para subir imagen -->
-                    <label for="imagen"><h3>Subí tu diseño</h3></label>
-                    <input type="file" name="imagen" id="imagen">
-                    </div>
+                    <!-- Campo para subir imagen -->
+                    <h3>Subí tu diseño</h3>
+                    <button class="button">
+                    <label for="imagen">Adjuntar archivo</label>
+                    <input type="file" id="imagen">
+                    </button>
                     <div>
                     <!-- Campo para asunto -->
                     <label for="asunto"><h3>Asunto</h3></label>
-                    <input type="text" id="asunto" name="asunto" placeholder="¿De qué trata tu consulta?">
+                    <input type="text" class="descripcion" id="asunto" name="asunto" placeholder="¿De qué trata tu consulta?">
                     </div>
                     <div>
                     <!-- Campo para descripcion -->
                     <label for="descripcion"><h3>¿En qué te podemos ayudar?</h3></label>
-                    <textarea name="descripcion" id="descripcion" cols="30" rows="5"
+                    <textarea name="descripcion" class="descripcion" id="descripcion" cols="30" rows="5"
                         placeholder="Dejanos tu consulta"></textarea>
                     </div>
                     <div class="suscripcion">
@@ -123,13 +124,13 @@
                         <label for="suscripcion"><h3>Suscribite al Newsletter</h3></label>
                         <input type="checkbox" name="suscripcion" id="suscripcion" value="acepta">
                     </div>
-                    
+                    <div>
                     <!-- Campo para enviar -->
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" class="button">
                     
                     <!-- Campo para borrar -->
-                    <input type="reset" value="Borrar">
-                            
+                    <input type="reset" value="Borrar" class="button">
+                    </div>        
                 </form>
             </div>
         </section>
